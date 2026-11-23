@@ -1,0 +1,21 @@
+# Data (downloaded, never committed)
+data/
+
+# Trained models
+models/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

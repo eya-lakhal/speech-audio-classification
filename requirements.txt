@@ -1,3 +1,26 @@
-# Step 1 - data download & split
+# Data download & split
 tqdm>=4.66
+
+# Audio preprocessing & features
+numpy>=1.26
+soundfile>=0.12
+librosa>=0.10
+
+# Classical baseline
+scikit-learn>=1.4
+joblib>=1.3
+pandas>=2.1
+
+# Deep learning (CPU build works on Windows)
+tensorflow>=2.16
+
+# Whisper bonus
+openai-whisper>=20240930
+jiwer>=3.0
+
+# Plots
+matplotlib>=3.8
+
+# Tests & notebooks
 pytest>=8.0
+jupyter>=1.0

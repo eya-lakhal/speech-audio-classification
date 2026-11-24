@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import csv
 import tarfile
+import time
 import urllib.request
 from collections import Counter
 from pathlib import Path
@@ -36,22 +37,47 @@ DEFAULT_DATA_DIR = Path("data")
 # --------------------------------------------------------------------------- #
 # 1. Download
 # --------------------------------------------------------------------------- #
-def download(url: str, dest: Path) -> Path:
-    """Download `url` to `dest` with a progress bar. Skips if the file exists."""
+def download(url: str, dest: Path, max_retries: int = 50) -> Path:
+    """Download `url` to `dest` with a progress bar. Skips if the file exists.
+
+    The file is written to `<dest>.part` and only renamed at the end, so an
+    interrupted download never looks complete. If the connection drops, the
+    download *resumes* where it stopped (HTTP "Range" header) instead of
+    starting again from zero - important for a 2.4 GB file on a slow network.
+    """
     if dest.exists():
         print(f"[download] {dest} already exists, skipping.")
         return dest
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(dest.suffix + ".part")
 
-    with urllib.request.urlopen(url) as response:
-        total = int(response.headers.get("Content-Length", 0))
-        with open(tmp, "wb") as f, tqdm(
-            total=total, unit="B", unit_scale=True, desc="Downloading"
-        ) as bar:
-            while chunk := response.read(1 << 20):  # 1 MB at a time
-                f.write(chunk)
-                bar.update(len(chunk))
+    with urllib.request.urlopen(urllib.request.Request(url, method="HEAD")) as r:
+        total = int(r.headers.get("Content-Length", 0))
+
+    bar = tqdm(total=total, unit="B", unit_scale=True, desc="Downloading")
+    for attempt in range(max_retries):
+        done = tmp.stat().st_size if tmp.exists() else 0
+        bar.n = done
+        bar.refresh()
+        if total and done >= total:
+            break
+        request = urllib.request.Request(url, headers={"Range": f"bytes={done}-"})
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response, open(tmp, "ab") as f:
+                if done and response.status != 206:   # server ignored Range:
+                    f.truncate(0)                       # restart from scratch
+                    bar.n = 0
+                while chunk := response.read(1 << 20):  # 1 MB at a time
+                    f.write(chunk)
+                    bar.update(len(chunk))
+            if not total or tmp.stat().st_size >= total:
+                break
+        except OSError as e:  # connection reset, timeout, ...
+            print(f"\n[download] interrupted ({e}); resuming (attempt {attempt + 2})")
+            time.sleep(5)
+    bar.close()
+    if total and tmp.stat().st_size != total:
+        raise RuntimeError("Download incomplete, run the script again to resume.")
 
     tmp.rename(dest)  # only "finalise" the file once fully downloaded
     return dest

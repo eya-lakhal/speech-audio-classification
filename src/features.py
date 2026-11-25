@@ -6,7 +6,7 @@ Pipeline for every clip:
 Features:
     * classical: MFCC (+ delta, delta-delta), spectral centroid, zero-crossing
       rate and RMS, each summarised over time by its mean and std -> 84 values
-    * deep learning: log-mel spectrogram (64 mel bands x 98 frames)
+    * deep learning: log-mel spectrogram (40 mel bands x ~100 frames of 10 ms)
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ N_SAMPLES = SR         # 1 second
 N_FFT = 512            # 32 ms analysis window
 HOP = 160              # 10 ms hop -> 101 frames per second with librosa centering
 N_MFCC = 13
-N_MELS = 64
+N_MELS = 40
 
 DATA_DIR = Path("data")
 DATASET_DIR = DATA_DIR / "speech_commands"

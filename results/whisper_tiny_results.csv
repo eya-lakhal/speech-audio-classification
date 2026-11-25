@@ -1,0 +1,6 @@
+model,snr,wer,keyword_accuracy,exact_match,n_clips,seconds
+whisper-tiny,clean,0.155,0.865,0.86,200,133
+whisper-tiny,20 dB,0.245,0.785,0.785,200,41
+whisper-tiny,10 dB,0.275,0.76,0.75,200,137
+whisper-tiny,5 dB,0.375,0.66,0.65,200,144
+whisper-tiny,0 dB,0.585,0.485,0.485,200,85

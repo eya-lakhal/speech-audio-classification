@@ -1,0 +1,1001 @@
+snr,reference,hypothesis
+clean,yes,yes
+clean,yes,yes
+clean,yes,yeah
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,yes,yes
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,new
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,hello
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,no,no
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,oh
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,up,up
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,damn
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,down,down
+clean,left,left
+clean,left,left
+clean,left,that
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,let's eat
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,left
+clean,left,left
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,brain
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,right,right
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on the
+clean,on,
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,oh
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,on,on
+clean,off,off
+clean,off,oh
+clean,off,oh
+clean,off,awesome
+clean,off,off
+clean,off,off
+clean,off,off
+clean,off,oh
+clean,off,off
+clean,off,oh
+clean,off,ah
+clean,off,oh
+clean,off,off
+clean,off,off
+clean,off,oof
+clean,off,alp
+clean,off,off
+clean,off,off
+clean,off,oh
+clean,off,off
+clean,stop,tom
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,step
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,stop
+clean,stop,
+clean,stop,stop
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+clean,go,go
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yeah
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,yes,yes
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,new
+20 dB,no,hello
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,no,no
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,oh
+20 dB,up,oh god
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,oh
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,at
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,up,up
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,oh
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,down,done
+20 dB,down,down
+20 dB,down,down
+20 dB,down,down
+20 dB,left,left
+20 dB,left,left
+20 dB,left,let's go
+20 dB,left,let's go
+20 dB,left,left
+20 dB,left,left
+20 dB,left,
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,that's it
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,left,left
+20 dB,right,bright
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,wait
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,right,right
+20 dB,on,on
+20 dB,on,on
+20 dB,on,on
+20 dB,on,on
+20 dB,on,on
+20 dB,on,on
+20 dB,on,
+20 dB,on,on
+20 dB,on,on
+20 dB,on,oh
+20 dB,on,on
+20 dB,on,on
+20 dB,on,oh
+20 dB,on,on
+20 dB,on,on
+20 dB,on,and
+20 dB,on,on
+20 dB,on,on
+20 dB,on,on
+20 dB,on,on
+20 dB,off,oh
+20 dB,off,ah
+20 dB,off,oh
+20 dB,off,awesome
+20 dB,off,off
+20 dB,off,ah
+20 dB,off,oh
+20 dB,off,up
+20 dB,off,oh
+20 dB,off,oh
+20 dB,off,ah
+20 dB,off,oh
+20 dB,off,ah
+20 dB,off,oh
+20 dB,off,oh
+20 dB,off,all
+20 dB,off,ah
+20 dB,off,oh
+20 dB,off,oh
+20 dB,off,ah
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,step
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,stop,stop
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,okay
+20 dB,go,the
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+20 dB,go,go
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yeah
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yeah
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yeah
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,yes,yes
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,new
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,new
+10 dB,no,hello
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,no,no
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,oh
+10 dB,up,ha
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,oh
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,okay
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,up,up
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,bye
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,down,down
+10 dB,left,what
+10 dB,left,left
+10 dB,left,nah
+10 dB,left,let's go
+10 dB,left,lay
+10 dB,left,left
+10 dB,left,
+10 dB,left,left
+10 dB,left,left
+10 dB,left,let's go
+10 dB,left,left
+10 dB,left,left
+10 dB,left,left
+10 dB,left,left
+10 dB,left,nep
+10 dB,left,left
+10 dB,left,left
+10 dB,left,left
+10 dB,left,left
+10 dB,left,left
+10 dB,right,brighten
+10 dB,right,right
+10 dB,right,great
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,thank you
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,right,right
+10 dB,on,on
+10 dB,on,on
+10 dB,on,on
+10 dB,on,on
+10 dB,on,on
+10 dB,on,on
+10 dB,on,
+10 dB,on,on
+10 dB,on,on
+10 dB,on,oh
+10 dB,on,on
+10 dB,on,on
+10 dB,on,oh
+10 dB,on,one
+10 dB,on,on
+10 dB,on,on
+10 dB,on,on
+10 dB,on,on
+10 dB,on,um
+10 dB,on,oh no
+10 dB,off,oh
+10 dB,off,ah
+10 dB,off,oh
+10 dB,off,fuck
+10 dB,off,oh
+10 dB,off,ah
+10 dB,off,oh
+10 dB,off,up
+10 dB,off,oh
+10 dB,off,oh
+10 dB,off,ah
+10 dB,off,oh
+10 dB,off,ah
+10 dB,off,oh
+10 dB,off,oh
+10 dB,off,oh
+10 dB,off,oh
+10 dB,off,oh
+10 dB,off,oh
+10 dB,off,
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,step
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,stop,stop
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,bye
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+10 dB,go,boom
+10 dB,go,go
+10 dB,go,go
+10 dB,go,go
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,
+5 dB,yes,yes
+5 dB,yes,yeah
+5 dB,yes,yeah
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,yeah
+5 dB,yes,yeah
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,yeah
+5 dB,yes,yeah
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,yes,yes
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,new
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,new
+5 dB,no,hello
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,no,no
+5 dB,up,up
+5 dB,up,up
+5 dB,up,oh
+5 dB,up,up
+5 dB,up,up
+5 dB,up,oh
+5 dB,up,up
+5 dB,up,up
+5 dB,up,up
+5 dB,up,up
+5 dB,up,
+5 dB,up,oh
+5 dB,up,up
+5 dB,up,up
+5 dB,up,okay
+5 dB,up,up
+5 dB,up,up
+5 dB,up,up
+5 dB,up,up
+5 dB,up,oh
+5 dB,down,down
+5 dB,down,down
+5 dB,down,down
+5 dB,down,general
+5 dB,down,down
+5 dB,down,down
+5 dB,down,bye
+5 dB,down,down
+5 dB,down,down
+5 dB,down,down
+5 dB,down,down
+5 dB,down,d'aww
+5 dB,down,down
+5 dB,down,down
+5 dB,down,down
+5 dB,down,down
+5 dB,down,oh
+5 dB,down,down
+5 dB,down,down
+5 dB,down,and
+5 dB,left,bye
+5 dB,left,left
+5 dB,left,no
+5 dB,left,let's go
+5 dB,left,le
+5 dB,left,left
+5 dB,left,
+5 dB,left,left
+5 dB,left,left
+5 dB,left,let's
+5 dB,left,left
+5 dB,left,lab
+5 dB,left,left
+5 dB,left,next
+5 dB,left,yep
+5 dB,left,left
+5 dB,left,left
+5 dB,left,love
+5 dB,left,left
+5 dB,left,left
+5 dB,right,brighton
+5 dB,right,right
+5 dB,right,great
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,i'm going to
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,right,right
+5 dB,on,on
+5 dB,on,on
+5 dB,on,on
+5 dB,on,on
+5 dB,on,on
+5 dB,on,on
+5 dB,on,
+5 dB,on,on
+5 dB,on,front
+5 dB,on,oh
+5 dB,on,on
+5 dB,on,on
+5 dB,on,oh
+5 dB,on,one
+5 dB,on,on
+5 dB,on,on
+5 dB,on,on
+5 dB,on,on
+5 dB,on,oh man
+5 dB,on,oh no
+5 dB,off,oh
+5 dB,off,ah
+5 dB,off,oh
+5 dB,off,fuck
+5 dB,off,oh
+5 dB,off,ah
+5 dB,off,oh
+5 dB,off,up
+5 dB,off,oh
+5 dB,off,oh
+5 dB,off,huh
+5 dB,off,oh
+5 dB,off,aw
+5 dB,off,oh
+5 dB,off,oh
+5 dB,off,oh
+5 dB,off,oh
+5 dB,off,oh
+5 dB,off,oh
+5 dB,off,
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,oh
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,so
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,step
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,let's go
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,stop,stop
+5 dB,go,sorry
+5 dB,go,go
+5 dB,go,come
+5 dB,go,bye
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,go
+5 dB,go,boom
+5 dB,go,go
+5 dB,go,go
+5 dB,go,
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,yes,
+0 dB,yes,yes
+0 dB,yes,yeah
+0 dB,yes,yeah
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,yes,yeah
+0 dB,yes,yeah
+0 dB,yes,yeah
+0 dB,yes,yeah
+0 dB,yes,yeah
+0 dB,yes,yeah
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,yes,yes
+0 dB,no,i'm not
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,new
+0 dB,no,now
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,hello
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,no,no
+0 dB,up,up
+0 dB,up,up
+0 dB,up,up
+0 dB,up,up
+0 dB,up,up
+0 dB,up,
+0 dB,up,up
+0 dB,up,up
+0 dB,up,up
+0 dB,up,up
+0 dB,up,
+0 dB,up,oh
+0 dB,up,oh
+0 dB,up,up
+0 dB,up,okay
+0 dB,up,out
+0 dB,up,up
+0 dB,up,oh
+0 dB,up,up
+0 dB,up,oh
+0 dB,down,down
+0 dB,down,down
+0 dB,down,down
+0 dB,down,ciao
+0 dB,down,down
+0 dB,down,down
+0 dB,down,oh
+0 dB,down,down
+0 dB,down,go
+0 dB,down,down
+0 dB,down,down
+0 dB,down,y'all
+0 dB,down,down
+0 dB,down,down
+0 dB,down,down
+0 dB,down,yeah
+0 dB,down,oh
+0 dB,down,down
+0 dB,down,ciao
+0 dB,down,damn
+0 dB,left,bye
+0 dB,left,yes
+0 dB,left,no
+0 dB,left,let's go
+0 dB,left,le
+0 dB,left,left
+0 dB,left,
+0 dB,left,wow
+0 dB,left,lave
+0 dB,left,let's
+0 dB,left,let
+0 dB,left,lab
+0 dB,left,left
+0 dB,left,next
+0 dB,left,yep
+0 dB,left,left
+0 dB,left,life
+0 dB,left,love
+0 dB,left,let's go
+0 dB,left,left
+0 dB,right,brighten
+0 dB,right,great
+0 dB,right,great
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,wait
+0 dB,right,right
+0 dB,right,
+0 dB,right,bye bye
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,right,right
+0 dB,on,on
+0 dB,on,on
+0 dB,on,on
+0 dB,on,on
+0 dB,on,on
+0 dB,on,on
+0 dB,on,
+0 dB,on,alright
+0 dB,on,from
+0 dB,on,oh no
+0 dB,on,on
+0 dB,on,on
+0 dB,on,oh
+0 dB,on,born
+0 dB,on,on
+0 dB,on,on
+0 dB,on,on
+0 dB,on,on
+0 dB,on,oh
+0 dB,on,
+0 dB,off,oh
+0 dB,off,ah
+0 dB,off,oh
+0 dB,off,fuck
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,okay
+0 dB,off,huh
+0 dB,off,oh
+0 dB,off,aw
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,oh
+0 dB,off,
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,that's it
+0 dB,stop,oh
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,so
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,good
+0 dB,stop,step
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,stop,that's it
+0 dB,stop,stop
+0 dB,stop,stop
+0 dB,go,so
+0 dB,go,no
+0 dB,go,go
+0 dB,go,right
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,go
+0 dB,go,
+0 dB,go,go
+0 dB,go,bo
+0 dB,go,so
+0 dB,go,so
+0 dB,go,

@@ -1,0 +1,6 @@
+model,snr,wer,keyword_accuracy,exact_match,n_clips,seconds
+whisper-base,clean,0.13,0.88,0.875,200,284
+whisper-base,20 dB,0.225,0.795,0.795,200,316
+whisper-base,10 dB,0.275,0.745,0.745,200,302
+whisper-base,5 dB,0.38,0.65,0.65,200,287
+whisper-base,0 dB,0.5,0.535,0.535,200,303

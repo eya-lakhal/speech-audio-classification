@@ -74,25 +74,28 @@ def preprocess(path: str | Path) -> np.ndarray:
 def load_split_waveforms(split: str, n_jobs: int = -1) -> tuple[np.ndarray, np.ndarray]:
     """Return (waveforms [N, 16000] float32, labels [N] str) for a split.
 
-    Stored as int16 in data/cache/<split>.npz (half the size of float32).
+    Stored as 16-bit integers in data/cache/<split>.npz (half the size of
+    float32, and the same resolution as the original 16-bit wav files).
+    The function always returns the waveforms *as read back from the cache*,
+    so the first run and later runs give bit-identical inputs (this matters:
+    MFCCs of near-silent frames are very sensitive to tiny differences).
     """
     from src.data import load_split  # local import keeps this module light
 
     cache = CACHE_DIR / f"{split}.npz"
-    if cache.exists():
-        d = np.load(cache)
-        return d["x"].astype(np.float32) / 32767.0, d["y"]
+    if not cache.exists():
+        rows = load_split(split, DATA_DIR)
+        paths = [DATASET_DIR / r["path"] for r in rows]
+        waves = Parallel(n_jobs=n_jobs, batch_size=256)(
+            delayed(preprocess)(p) for p in tqdm(paths, desc=f"Loading {split}")
+        )
+        x = np.stack(waves)
+        y = np.array([r["label"] for r in rows])
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        np.savez(cache, x=np.round(x * 32767).astype(np.int16), y=y)
 
-    rows = load_split(split, DATA_DIR)
-    paths = [DATASET_DIR / r["path"] for r in rows]
-    waves = Parallel(n_jobs=n_jobs, batch_size=256)(
-        delayed(preprocess)(p) for p in tqdm(paths, desc=f"Loading {split}")
-    )
-    x = np.stack(waves)
-    y = np.array([r["label"] for r in rows])
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    np.savez(cache, x=(x * 32767).astype(np.int16), y=y)
-    return x, y
+    d = np.load(cache)
+    return d["x"].astype(np.float32) / 32767.0, d["y"]
 
 
 # --------------------------------------------------------------------------- #
